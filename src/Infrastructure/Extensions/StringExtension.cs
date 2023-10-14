@@ -1,7 +1,11 @@
 ﻿namespace Infrastructure;
 
+/// <summary>
+/// string 扩展方法
+/// </summary>
 public static class StringExtension
 {
+
     public static bool IsNullOrEmpty(this string? str)
     {
         return string.IsNullOrEmpty(str);
